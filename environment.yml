@@ -1,0 +1,4 @@
+name: inception-time
+channels:
+  - defaults
+prefix: /home/lidar/anaconda3/envs/inception-time
