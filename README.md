@@ -1,5 +1,5 @@
 # InceptionFCN
-This is the InceptionFCN network a modified network of the InceptionTime
+This is the InceptionFCN network a modified network of the InceptionTime was done as a part of Time Series Classification with InceptionFCN research done by Usmankhujaev et al.
 The original code was taken from InceptionTime: Finding AlexNet for Time Series Classification (https://github.com/hfawaz/InceptionTime)
 
 ## Getting Started
