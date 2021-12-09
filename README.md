@@ -11,13 +11,16 @@ and then
 ```shell script
 conda activate dl4-tsc
 ```
-For network training you have to download UCR archive from here (https://www.cs.ucr.edu/~eamonn/time_series_data/) and create the folder named "archives" and put the UCR archive inside and rename the folder to TSC or you can change your folder names or pathes within the code. 
-Go to main.py file and change the directories in line 78.
+For network training you have to download UCR archive from here (https://www.cs.ucr.edu/~eamonn/time_series_data/) and create the folder named ```archive``` and put the UCR archive inside and rename the folder to TSC or you can change your folder names or pathes within the code. 
+Go to ```main.py``` file and change the directories in line 78.
 
 Also you can go to /utils/ folder and change the constansts 
 
 For network training instructions follow the authors of InceptionTime
-We implemented the a different network within the existing network named ICNv2.py in the /classfiers/
+We implemented the a different network within the existing network named ```ICNv2.py``` in the /classfiers/
+## Network overview
+The overview of our Inception (a) block and FCN (b) blocks. 
+![network](./utils/Network_overview.png)
 
 ## Checking the results
-Once you train your network it will save all the metrics results in the separate folders for each class and separate files. You can change the name of the folder you want to save. Here we created results_extractor.py that will help you to extract all the results from all folders and saves it in single .csv file so you can easily see your results.
+Once you train your network it will save all the metrics results in the separate folders for each class and separate files. You can change the name of the folder you want to save. Here we created ```results_extractor.py``` that will help you to extract all the results from all folders and saves it in single .csv file so you can easily see your results.
