@@ -43,8 +43,8 @@ class Classifier_ICNv2:
         else:
             input_inception = input_tensor
 
-        # kernel_size_s = [5, 10, 20]
-        kernel_size_s = [self.kernel_size // (2 ** i) for i in range(3,0,-1)]
+        # kernel_size_s = [10, 20]
+        kernel_size_s = [self.kernel_size // (2 ** i) for i in range(2,0,-1)]
 
         conv_list = []
 
